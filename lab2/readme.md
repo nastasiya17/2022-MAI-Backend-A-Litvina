@@ -22,24 +22,24 @@ default - файл конфигурации nginx (/etc/nginx/sites-available) -
 
 > ab -n 10 -c 2 -t 1 -v 2 http://localhost/public/index.html
 
-<p align="center">
-  <img src="">
+<p>
+  <img src="https://github.com/nastasiya17/2022-MAI-Backend-A-Litvina/blob/main/lab2/ab/3.png">
 </p>
 
 ### Backend
 
 > ab -n 10 -c 2 -t 1 -v 2 http://127.0.0.1:8000/ 
 
-<p align="center">
-  <img src="">
+<p>
+  <img src="https://github.com/nastasiya17/2022-MAI-Backend-A-Litvina/blob/main/lab2/ab/2.png">
 </p>
 
 ### Backend c помощью проксирования
 
 > ab -n 10 -c 2 -t 1 -v 2 http://localhost/backend/
 
-<p align="center">
-  <img src="">
+<p>
+  <img src="https://github.com/nastasiya17/2022-MAI-Backend-A-Litvina/blob/main/lab2/ab/1.png">
 </p>
 
 
